@@ -25,7 +25,10 @@
   <div class="card" id="loginDiv">
     <h3>Login</h3>
     <input type="text" id="empId" placeholder="Employee ID">
-    <input type="password" id="password" placeholder="Password">
+    <div class="password-container">
+  <input type="password" id="password" placeholder="Password">
+  <i class="fa-solid fa-eye toggle-password" onclick="togglePassword()"></i>
+</div>
     <button id="loginBtn" onclick="login()">Check-In</button>
   </div>
 
